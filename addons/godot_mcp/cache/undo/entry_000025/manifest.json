@@ -1,0 +1,12 @@
+{
+  "args_summary": "write_file(path=res://scenes/ui/dialogue_box.tscn)",
+  "files": [
+    {
+      "kind": "created",
+      "path": "res://scenes/ui/dialogue_box.tscn"
+    }
+  ],
+  "id": "000025",
+  "timestamp": 1794568718.0,
+  "tool": "write_file"
+}

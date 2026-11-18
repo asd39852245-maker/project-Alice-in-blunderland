@@ -1,0 +1,12 @@
+{
+  "args_summary": "write_file(path=res://scripts/hud.gd)",
+  "files": [
+    {
+      "kind": "created",
+      "path": "res://scripts/hud.gd"
+    }
+  ],
+  "id": "000037",
+  "timestamp": 1794647240.0,
+  "tool": "write_file"
+}

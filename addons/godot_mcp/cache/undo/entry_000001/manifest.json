@@ -1,0 +1,12 @@
+{
+  "args_summary": "create_script(path=res://scripts/room.gd)",
+  "files": [
+    {
+      "kind": "created",
+      "path": "res://scripts/room.gd"
+    }
+  ],
+  "id": "000001",
+  "timestamp": 1793789540.0,
+  "tool": "create_script"
+}

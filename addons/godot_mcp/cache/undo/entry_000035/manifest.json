@@ -1,0 +1,13 @@
+{
+  "args_summary": "write_file(path=res://autoload/game_state.gd)",
+  "files": [
+    {
+      "backup": "res://addons/godot_mcp/cache/undo/entry_000035/files/autoload/game_state.gd",
+      "kind": "snapshot",
+      "path": "res://autoload/game_state.gd"
+    }
+  ],
+  "id": "000035",
+  "timestamp": 1794647232.0,
+  "tool": "write_file"
+}

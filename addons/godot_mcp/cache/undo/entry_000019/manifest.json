@@ -1,0 +1,13 @@
+{
+  "args_summary": "remove_node(scene_path=res://scenes/part2/checker_room.tscn, node_path=Player/Body)",
+  "files": [
+    {
+      "backup": "res://addons/godot_mcp/cache/undo/entry_000019/files/scenes/part2/checker_room.tscn",
+      "kind": "snapshot",
+      "path": "res://scenes/part2/checker_room.tscn"
+    }
+  ],
+  "id": "000019",
+  "timestamp": 1794568085.0,
+  "tool": "remove_node"
+}

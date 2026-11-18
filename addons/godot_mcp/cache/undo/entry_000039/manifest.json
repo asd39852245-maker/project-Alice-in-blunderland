@@ -1,0 +1,12 @@
+{
+  "args_summary": "write_file(path=res://scripts/door.gd)",
+  "files": [
+    {
+      "kind": "created",
+      "path": "res://scripts/door.gd"
+    }
+  ],
+  "id": "000039",
+  "timestamp": 1794647252.0,
+  "tool": "write_file"
+}

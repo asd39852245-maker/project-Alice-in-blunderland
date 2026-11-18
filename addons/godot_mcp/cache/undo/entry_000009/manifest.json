@@ -1,0 +1,12 @@
+{
+  "args_summary": "create_scene(scene_path=res://scenes/part2/checker_room.tscn)",
+  "files": [
+    {
+      "kind": "created",
+      "path": "res://scenes/part2/checker_room.tscn"
+    }
+  ],
+  "id": "000009",
+  "timestamp": 1793789598.0,
+  "tool": "create_scene"
+}

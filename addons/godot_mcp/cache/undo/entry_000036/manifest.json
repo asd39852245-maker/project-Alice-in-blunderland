@@ -1,0 +1,12 @@
+{
+  "args_summary": "write_file(path=res://data/items.json)",
+  "files": [
+    {
+      "kind": "created",
+      "path": "res://data/items.json"
+    }
+  ],
+  "id": "000036",
+  "timestamp": 1794647234.0,
+  "tool": "write_file"
+}

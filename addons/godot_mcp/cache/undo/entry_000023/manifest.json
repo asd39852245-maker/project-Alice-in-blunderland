@@ -1,0 +1,12 @@
+{
+  "args_summary": "write_file(path=res://autoload/game_state.gd)",
+  "files": [
+    {
+      "kind": "created",
+      "path": "res://autoload/game_state.gd"
+    }
+  ],
+  "id": "000023",
+  "timestamp": 1794568704.0,
+  "tool": "write_file"
+}

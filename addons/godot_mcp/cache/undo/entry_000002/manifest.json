@@ -1,0 +1,12 @@
+{
+  "args_summary": "create_script(path=res://scripts/player.gd)",
+  "files": [
+    {
+      "kind": "created",
+      "path": "res://scripts/player.gd"
+    }
+  ],
+  "id": "000002",
+  "timestamp": 1793789545.0,
+  "tool": "create_script"
+}

@@ -1,0 +1,13 @@
+{
+  "args_summary": "call_method(scene_path=res://scenes/part2/checker_room.tscn, node_path=Background, method=set_texture)",
+  "files": [
+    {
+      "backup": "res://addons/godot_mcp/cache/undo/entry_000012/files/scenes/part2/checker_room.tscn",
+      "kind": "snapshot",
+      "path": "res://scenes/part2/checker_room.tscn"
+    }
+  ],
+  "id": "000012",
+  "timestamp": 1793789843.0,
+  "tool": "call_method"
+}

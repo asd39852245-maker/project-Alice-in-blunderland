@@ -1,0 +1,143 @@
+[gd_scene format=3 uid="uid://c0pow21g6yifa"]
+
+[ext_resource type="Texture2D" uid="uid://b5vhiajc5jkce" path="res://assets/maps/checker_room.png" id="1_map"]
+[ext_resource type="Script" uid="uid://pqw862456isj" path="res://scripts/interactable.gd" id="2_d6xm6"]
+[ext_resource type="Script" uid="uid://c3kkvth13qu50" path="res://scripts/door.gd" id="2_mw4wq"]
+[ext_resource type="Script" uid="uid://7odh6m5c5og" path="res://scripts/player.gd" id="2_player"]
+[ext_resource type="PackedScene" path="res://scenes/player/alice_sprite.tscn" id="3_cfnmq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d6xm6"]
+size = Vector2(175.49438, 65.13882)
+
+[sub_resource type="CircleShape2D" id="Shape_door_n"]
+radius = 50.0
+
+[sub_resource type="CircleShape2D" id="Shape_door_s"]
+radius = 50.0
+
+[sub_resource type="CircleShape2D" id="Shape_door_w"]
+radius = 50.0
+
+[sub_resource type="CircleShape2D" id="Shape_door_e"]
+radius = 50.0
+
+[sub_resource type="CircleShape2D" id="Shape_note"]
+radius = 70.0
+
+[sub_resource type="CircleShape2D" id="Shape_player"]
+
+[sub_resource type="CircleShape2D" id="Shape_interact"]
+radius = 48.0
+
+[node name="CheckerRoom" type="Node2D" unique_id=276159973]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=149626484]
+z_index = -10
+texture_filter = 1
+texture = ExtResource("1_map")
+centered = false
+
+[node name="Boundary" type="StaticBody2D" parent="." unique_id=1404698593]
+
+[node name="Wall_SE" type="CollisionPolygon2D" parent="Boundary" unique_id=357254106]
+position = Vector2(0, 2)
+polygon = PackedVector2Array(1202, 612, 1196, 659, 1178, 705, 1148, 748, 1107, 788, 1056, 824, 996, 855, 929, 879, 857, 897, 780, 908, 702, 912, 702, 1212, 858, 1205, 1011, 1183, 1156, 1147, 1290, 1097, 1409, 1036, 1511, 965, 1593, 884, 1653, 797, 1690, 706, 1702, 612)
+
+[node name="Wall_SW" type="CollisionPolygon2D" parent="Boundary" unique_id=1030783386]
+position = Vector2(4, -2)
+polygon = PackedVector2Array(702, 912, 624, 908, 547, 897, 475, 879, 408, 855, 348, 824, 297, 788, 256, 748, 226, 705, 208, 659, 202, 612, -298, 612, -286, 706, -249, 797, -189, 884, -107, 965, -5, 1036, 114, 1097, 248, 1147, 393, 1183, 546, 1205, 702, 1212)
+
+[node name="Wall_NW" type="CollisionPolygon2D" parent="Boundary" unique_id=394462210]
+polygon = PackedVector2Array(202, 612, 208, 565, 226, 519, 256, 476, 297, 436, 348, 400, 408, 369, 475, 345, 547, 327, 624, 316, 702, 312, 702, 12, 546, 19, 393, 41, 248, 77, 114, 127, -5, 188, -107, 259, -189, 340, -249, 427, -286, 518, -298, 612)
+
+[node name="Wall_NE" type="CollisionPolygon2D" parent="Boundary" unique_id=124507333]
+polygon = PackedVector2Array(702, 312, 780, 316, 857, 327, 929, 345, 996, 369, 1056, 400, 1107, 436, 1148, 476, 1178, 519, 1196, 565, 1202, 612, 1702, 612, 1690, 518, 1653, 427, 1593, 340, 1511, 259, 1409, 188, 1290, 127, 1156, 77, 1011, 41, 858, 19, 702, 12)
+
+[node name="TableBody" type="StaticBody2D" parent="." unique_id=1896427241]
+position = Vector2(702, 610)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TableBody" unique_id=1290091625]
+position = Vector2(2.999997, -34.000004)
+rotation = -0.44879678
+scale = Vector2(0.9999997, 0.9999997)
+shape = SubResource("RectangleShape2D_d6xm6")
+
+[node name="Interactables" type="Node2D" parent="." unique_id=1505335237]
+
+[node name="Door_North" type="Area2D" parent="Interactables" unique_id=1000055646 groups=["interactable"]]
+position = Vector2(700, 330)
+script = ExtResource("2_mw4wq")
+door_id = "north"
+door_name = "ประตูทิศเหนือ"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactables/Door_North" unique_id=1028915784]
+shape = SubResource("Shape_door_n")
+
+[node name="Door_South" type="Area2D" parent="Interactables" unique_id=1161698316 groups=["interactable"]]
+position = Vector2(700, 900)
+script = ExtResource("2_mw4wq")
+door_id = "south"
+door_name = "ประตูทิศใต้"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactables/Door_South" unique_id=1611799030]
+position = Vector2(16, 10)
+shape = SubResource("Shape_door_s")
+
+[node name="Door_West" type="Area2D" parent="Interactables" unique_id=1888721533 groups=["interactable"]]
+position = Vector2(230, 610)
+script = ExtResource("2_mw4wq")
+door_id = "west"
+door_name = "ประตูทิศตะวันตก"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactables/Door_West" unique_id=1093438796]
+position = Vector2(0, -77)
+shape = SubResource("Shape_door_w")
+
+[node name="Door_East" type="Area2D" parent="Interactables" unique_id=613042761 groups=["interactable"]]
+position = Vector2(1170, 610)
+script = ExtResource("2_mw4wq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactables/Door_East" unique_id=536258390]
+position = Vector2(0, -81)
+shape = SubResource("Shape_door_e")
+
+[node name="Note_Table" type="Area2D" parent="Interactables" unique_id=1117618719 groups=["interactable"]]
+position = Vector2(702, 665)
+script = ExtResource("2_d6xm6")
+dialogue_id = "note_table"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactables/Note_Table" unique_id=561203898]
+shape = SubResource("Shape_note")
+
+[node name="Player" type="CharacterBody2D" parent="." unique_id=142039293]
+position = Vector2(702, 780)
+script = ExtResource("2_player")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=364747117]
+shape = SubResource("Shape_player")
+
+[node name="InteractArea" type="Area2D" parent="Player" unique_id=1684785480]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/InteractArea" unique_id=1599341639]
+shape = SubResource("Shape_interact")
+
+[node name="Camera2D" type="Camera2D" parent="Player" unique_id=1351394959]
+position = Vector2(0, -20)
+zoom = Vector2(1.6, 1.6)
+limit_left = 0
+limit_top = 0
+limit_right = 1402
+limit_bottom = 1122
+position_smoothing_enabled = true
+position_smoothing_speed = 8.0
+
+[node name="Sprite" parent="Player" unique_id=1427700979 instance=ExtResource("3_cfnmq")]
+position = Vector2(-0.99998474, -1.9999847)
+scale = Vector2(2.2343745, 2.2343745)
+
+[node name="PromptLabel" type="Label" parent="Player" unique_id=1705780805]
+offset_left = -80.0
+offset_top = -172.0
+offset_right = 80.0
+offset_bottom = -150.0
+text = "[E]"

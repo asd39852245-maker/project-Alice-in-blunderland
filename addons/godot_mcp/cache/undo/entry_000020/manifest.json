@@ -1,0 +1,13 @@
+{
+  "args_summary": "instance_scene(scene_path=res://scenes/part2/checker_room.tscn, node_name=Sprite)",
+  "files": [
+    {
+      "backup": "res://addons/godot_mcp/cache/undo/entry_000020/files/scenes/part2/checker_room.tscn",
+      "kind": "snapshot",
+      "path": "res://scenes/part2/checker_room.tscn"
+    }
+  ],
+  "id": "000020",
+  "timestamp": 1794568090.0,
+  "tool": "instance_scene"
+}

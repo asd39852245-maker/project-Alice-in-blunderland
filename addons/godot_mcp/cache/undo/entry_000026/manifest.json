@@ -1,0 +1,12 @@
+{
+  "args_summary": "write_file(path=res://scripts/interactable.gd)",
+  "files": [
+    {
+      "kind": "created",
+      "path": "res://scripts/interactable.gd"
+    }
+  ],
+  "id": "000026",
+  "timestamp": 1794568724.0,
+  "tool": "write_file"
+}

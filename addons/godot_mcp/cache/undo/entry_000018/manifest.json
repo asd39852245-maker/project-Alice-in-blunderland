@@ -1,0 +1,12 @@
+{
+  "args_summary": "write_file(path=res://scenes/player/alice_sprite.tscn)",
+  "files": [
+    {
+      "kind": "created",
+      "path": "res://scenes/player/alice_sprite.tscn"
+    }
+  ],
+  "id": "000018",
+  "timestamp": 1794568061.0,
+  "tool": "write_file"
+}

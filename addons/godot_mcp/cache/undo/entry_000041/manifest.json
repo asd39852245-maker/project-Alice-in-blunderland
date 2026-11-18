@@ -1,0 +1,13 @@
+{
+  "args_summary": "setup_autoload(path=res://scenes/ui/hud.tscn, name=Hud)",
+  "files": [
+    {
+      "backup": "res://addons/godot_mcp/cache/undo/entry_000041/files/project.godot",
+      "kind": "snapshot",
+      "path": "res://project.godot"
+    }
+  ],
+  "id": "000041",
+  "timestamp": 1794647267.0,
+  "tool": "setup_autoload"
+}

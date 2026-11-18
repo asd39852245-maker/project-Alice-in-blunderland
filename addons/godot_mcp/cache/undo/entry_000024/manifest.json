@@ -1,0 +1,12 @@
+{
+  "args_summary": "write_file(path=res://scripts/dialogue_box.gd)",
+  "files": [
+    {
+      "kind": "created",
+      "path": "res://scripts/dialogue_box.gd"
+    }
+  ],
+  "id": "000024",
+  "timestamp": 1794568712.0,
+  "tool": "write_file"
+}

@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://bu38ps6uae781"]
+
+[ext_resource type="Script" uid="uid://bo7oxtc61by6t" path="res://scripts/room.gd" id="1_8iwp5"]
+[ext_resource type="Script" uid="uid://7odh6m5c5og" path="res://scripts/player.gd" id="2_cfnmq"]
+
+[node name="CheckerRoom" type="Node2D" unique_id=1301299639]
+script = ExtResource("1_8iwp5")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=308538895]
+z_index = -10
+centered = false
+
+[node name="Boundary" type="StaticBody2D" parent="." unique_id=1765403505]
+
+[node name="TableBody" type="StaticBody2D" parent="." unique_id=586950534]
+position = Vector2(702, 610)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TableBody" unique_id=669431318]
+
+[node name="Interactables" type="Node2D" parent="." unique_id=750744567]
+
+[node name="Door_North" type="Area2D" parent="Interactables" unique_id=1360224823 groups=["interactable"]]
+position = Vector2(700, 330)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactables/Door_North" unique_id=1253800976]
+
+[node name="Door_South" type="Area2D" parent="Interactables" unique_id=1416617582 groups=["interactable"]]
+position = Vector2(700, 900)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactables/Door_South" unique_id=1013782725]
+
+[node name="Door_West" type="Area2D" parent="Interactables" unique_id=2067281006 groups=["interactable"]]
+position = Vector2(230, 610)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactables/Door_West" unique_id=8992674]
+
+[node name="Door_East" type="Area2D" parent="Interactables" unique_id=325624050 groups=["interactable"]]
+position = Vector2(1170, 610)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactables/Door_East" unique_id=1280473874]
+
+[node name="Note_Table" type="Area2D" parent="Interactables" unique_id=938860140 groups=["interactable"]]
+position = Vector2(702, 665)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactables/Note_Table" unique_id=841208973]
+
+[node name="Player" type="CharacterBody2D" parent="." unique_id=1053744112]
+position = Vector2(702, 780)
+script = ExtResource("2_cfnmq")
+
+[node name="Body" type="ColorRect" parent="Player" unique_id=1433512112]
+offset_left = -10.0
+offset_top = -44.0
+offset_right = 10.0
+color = Color(1, 0.81960785, 0.4, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=666819403]
+
+[node name="InteractArea" type="Area2D" parent="Player" unique_id=1246612812]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/InteractArea" unique_id=75146539]
+
+[node name="Camera2D" type="Camera2D" parent="Player" unique_id=885966254]
+position = Vector2(0, -20)
+limit_left = 0
+limit_top = 0
+limit_right = 1402
+limit_bottom = 1122
+position_smoothing_enabled = true
+position_smoothing_speed = 8.0

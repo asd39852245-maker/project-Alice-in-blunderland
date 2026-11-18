@@ -1,0 +1,13 @@
+{
+  "args_summary": "attach_script(scene_path=res://scenes/part2/checker_room.tscn, node_path=Interactables/Door_North)",
+  "files": [
+    {
+      "backup": "res://addons/godot_mcp/cache/undo/entry_000042/files/scenes/part2/checker_room.tscn",
+      "kind": "snapshot",
+      "path": "res://scenes/part2/checker_room.tscn"
+    }
+  ],
+  "id": "000042",
+  "timestamp": 1794647269.0,
+  "tool": "attach_script"
+}

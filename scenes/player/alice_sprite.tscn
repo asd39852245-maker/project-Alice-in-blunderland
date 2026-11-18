@@ -1,0 +1,90 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://player/stand1/ตัวละครอลิช1.png" id="stand1_1"]
+[ext_resource type="Texture2D" path="res://player/stand1/ตัวละครอลิช2.png" id="stand1_2"]
+[ext_resource type="Texture2D" path="res://player/stand1/ตัวละครอลิช3.png" id="stand1_3"]
+[ext_resource type="Texture2D" path="res://player/stand1/ตัวละครอลิช4.png" id="stand1_4"]
+[ext_resource type="Texture2D" path="res://player/stand1/ตัวละครอลิช5.png" id="stand1_5"]
+[ext_resource type="Texture2D" path="res://player/stand1/ตัวละครอลิช6.png" id="stand1_6"]
+[ext_resource type="Texture2D" path="res://player/stand1/ตัวละครอลิช7.png" id="stand1_7"]
+[ext_resource type="Texture2D" path="res://player/stand1/ตัวละครอลิช8.png" id="stand1_8"]
+[ext_resource type="Texture2D" path="res://player/walk1/ตัวละครอลิชเดินลง1.png" id="walk1_1"]
+[ext_resource type="Texture2D" path="res://player/walk1/ตัวละครอลิชเดินลง2.png" id="walk1_2"]
+[ext_resource type="Texture2D" path="res://player/walk1/ตัวละครอลิชเดินลง3.png" id="walk1_3"]
+[ext_resource type="Texture2D" path="res://player/walk1/ตัวละครอลิชเดินลง4.png" id="walk1_4"]
+[ext_resource type="Texture2D" path="res://player/walk1/ตัวละครอลิชเดินลง5.png" id="walk1_5"]
+[ext_resource type="Texture2D" path="res://player/walk1/ตัวละครอลิชเดินลง6.png" id="walk1_6"]
+[ext_resource type="Texture2D" path="res://player/walk1/ตัวละครอลิชเดินลง7.png" id="walk1_7"]
+[ext_resource type="Texture2D" path="res://player/walk1/ตัวละครอลิชเดินลง8.png" id="walk1_8"]
+[ext_resource type="Texture2D" path="res://player/stand2/ตัวละครอลิชหันขวา1.png" id="stand2_1"]
+[ext_resource type="Texture2D" path="res://player/stand2/ตัวละครอลิชหันขวา2.png" id="stand2_2"]
+[ext_resource type="Texture2D" path="res://player/stand2/ตัวละครอลิชหันขวา3.png" id="stand2_3"]
+[ext_resource type="Texture2D" path="res://player/stand2/ตัวละครอลิชหันขวา4.png" id="stand2_4"]
+[ext_resource type="Texture2D" path="res://player/stand2/ตัวละครอลิชหันขวา5.png" id="stand2_5"]
+[ext_resource type="Texture2D" path="res://player/stand2/ตัวละครอลิชหันขวา6.png" id="stand2_6"]
+[ext_resource type="Texture2D" path="res://player/stand2/ตัวละครอลิชหันขวา7.png" id="stand2_7"]
+[ext_resource type="Texture2D" path="res://player/stand2/ตัวละครอลิชหันขวา8.png" id="stand2_8"]
+[ext_resource type="Texture2D" path="res://player/walk2/ตัวละครอลิชเดินหันขวา1.png" id="walk2_1"]
+[ext_resource type="Texture2D" path="res://player/walk2/ตัวละครอลิชเดินหันขวา2.png" id="walk2_2"]
+[ext_resource type="Texture2D" path="res://player/walk2/ตัวละครอลิชเดินหันขวา3.png" id="walk2_3"]
+[ext_resource type="Texture2D" path="res://player/walk2/ตัวละครอลิชเดินหันขวา4.png" id="walk2_4"]
+[ext_resource type="Texture2D" path="res://player/walk2/ตัวละครอลิชเดินหันขวา5.png" id="walk2_5"]
+[ext_resource type="Texture2D" path="res://player/walk2/ตัวละครอลิชเดินหันขวา6.png" id="walk2_6"]
+[ext_resource type="Texture2D" path="res://player/walk2/ตัวละครอลิชเดินหันขวา7.png" id="walk2_7"]
+[ext_resource type="Texture2D" path="res://player/walk2/ตัวละครอลิชเดินหันขวา8.png" id="walk2_8"]
+[ext_resource type="Texture2D" path="res://player/stand3/ตัวละครอลิชเดินขึ้น1.png" id="stand3_1"]
+[ext_resource type="Texture2D" path="res://player/stand3/ตัวละครอลิชเดินขึ้น2.png" id="stand3_2"]
+[ext_resource type="Texture2D" path="res://player/stand3/ตัวละครอลิชเดินขึ้น3.png" id="stand3_3"]
+[ext_resource type="Texture2D" path="res://player/stand3/ตัวละครอลิชเดินขึ้น4.png" id="stand3_4"]
+[ext_resource type="Texture2D" path="res://player/stand3/ตัวละครอลิชเดินขึ้น5.png" id="stand3_5"]
+[ext_resource type="Texture2D" path="res://player/stand3/ตัวละครอลิชเดินขึ้น6.png" id="stand3_6"]
+[ext_resource type="Texture2D" path="res://player/stand3/ตัวละครอลิชเดินขึ้น7.png" id="stand3_7"]
+[ext_resource type="Texture2D" path="res://player/stand3/ตัวละครอลิชเดินขึ้น8.png" id="stand3_8"]
+[ext_resource type="Texture2D" path="res://player/walk3/ตัวละครอลิชเดินขึ้นบน1.png" id="walk3_1"]
+[ext_resource type="Texture2D" path="res://player/walk3/ตัวละครอลิชเดินขึ้นบน2.png" id="walk3_2"]
+[ext_resource type="Texture2D" path="res://player/walk3/ตัวละครอลิชเดินขึ้นบน3.png" id="walk3_3"]
+[ext_resource type="Texture2D" path="res://player/walk3/ตัวละครอลิชเดินขึ้นบน4.png" id="walk3_4"]
+[ext_resource type="Texture2D" path="res://player/walk3/ตัวละครอลิชเดินขึ้นบน5.png" id="walk3_5"]
+[ext_resource type="Texture2D" path="res://player/walk3/ตัวละครอลิชเดินขึ้นบน6.png" id="walk3_6"]
+[ext_resource type="Texture2D" path="res://player/walk3/ตัวละครอลิชเดินขึ้นบน7.png" id="walk3_7"]
+[ext_resource type="Texture2D" path="res://player/walk3/ตัวละครอลิชเดินขึ้นบน8.png" id="walk3_8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_alice"]
+animations = [{
+"frames": [{"duration": 1.0, "texture": ExtResource("stand1_1")}, {"duration": 1.0, "texture": ExtResource("stand1_2")}, {"duration": 1.0, "texture": ExtResource("stand1_3")}, {"duration": 1.0, "texture": ExtResource("stand1_4")}, {"duration": 1.0, "texture": ExtResource("stand1_5")}, {"duration": 1.0, "texture": ExtResource("stand1_6")}, {"duration": 1.0, "texture": ExtResource("stand1_7")}, {"duration": 1.0, "texture": ExtResource("stand1_8")}],
+"loop": true,
+"name": &"stand_down",
+"speed": 10.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("walk1_1")}, {"duration": 1.0, "texture": ExtResource("walk1_2")}, {"duration": 1.0, "texture": ExtResource("walk1_3")}, {"duration": 1.0, "texture": ExtResource("walk1_4")}, {"duration": 1.0, "texture": ExtResource("walk1_5")}, {"duration": 1.0, "texture": ExtResource("walk1_6")}, {"duration": 1.0, "texture": ExtResource("walk1_7")}, {"duration": 1.0, "texture": ExtResource("walk1_8")}],
+"loop": true,
+"name": &"walk_down",
+"speed": 10.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("stand2_1")}, {"duration": 1.0, "texture": ExtResource("stand2_2")}, {"duration": 1.0, "texture": ExtResource("stand2_3")}, {"duration": 1.0, "texture": ExtResource("stand2_4")}, {"duration": 1.0, "texture": ExtResource("stand2_5")}, {"duration": 1.0, "texture": ExtResource("stand2_6")}, {"duration": 1.0, "texture": ExtResource("stand2_7")}, {"duration": 1.0, "texture": ExtResource("stand2_8")}],
+"loop": true,
+"name": &"stand_side",
+"speed": 10.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("walk2_1")}, {"duration": 1.0, "texture": ExtResource("walk2_2")}, {"duration": 1.0, "texture": ExtResource("walk2_3")}, {"duration": 1.0, "texture": ExtResource("walk2_4")}, {"duration": 1.0, "texture": ExtResource("walk2_5")}, {"duration": 1.0, "texture": ExtResource("walk2_6")}, {"duration": 1.0, "texture": ExtResource("walk2_7")}, {"duration": 1.0, "texture": ExtResource("walk2_8")}],
+"loop": true,
+"name": &"walk_side",
+"speed": 10.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("stand3_1")}, {"duration": 1.0, "texture": ExtResource("stand3_2")}, {"duration": 1.0, "texture": ExtResource("stand3_3")}, {"duration": 1.0, "texture": ExtResource("stand3_4")}, {"duration": 1.0, "texture": ExtResource("stand3_5")}, {"duration": 1.0, "texture": ExtResource("stand3_6")}, {"duration": 1.0, "texture": ExtResource("stand3_7")}, {"duration": 1.0, "texture": ExtResource("stand3_8")}],
+"loop": true,
+"name": &"stand_up",
+"speed": 10.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("walk3_1")}, {"duration": 1.0, "texture": ExtResource("walk3_2")}, {"duration": 1.0, "texture": ExtResource("walk3_3")}, {"duration": 1.0, "texture": ExtResource("walk3_4")}, {"duration": 1.0, "texture": ExtResource("walk3_5")}, {"duration": 1.0, "texture": ExtResource("walk3_6")}, {"duration": 1.0, "texture": ExtResource("walk3_7")}, {"duration": 1.0, "texture": ExtResource("walk3_8")}],
+"loop": true,
+"name": &"walk_up",
+"speed": 10.0
+}]
+
+[node name="Sprite" type="AnimatedSprite2D"]
+texture_filter = 1
+position = Vector2(0, -26)
+sprite_frames = SubResource("SpriteFrames_alice")
+animation = &"stand_down"
+autoplay = "stand_down"

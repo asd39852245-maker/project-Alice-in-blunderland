@@ -1,0 +1,13 @@
+{
+  "args_summary": "write_file(path=res://scripts/room.gd)",
+  "files": [
+    {
+      "backup": "res://addons/godot_mcp/cache/undo/entry_000013/files/scripts/room.gd",
+      "kind": "snapshot",
+      "path": "res://scripts/room.gd"
+    }
+  ],
+  "id": "000013",
+  "timestamp": 1793789879.0,
+  "tool": "write_file"
+}

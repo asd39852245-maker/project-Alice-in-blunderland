@@ -1,0 +1,13 @@
+{
+  "args_summary": "add_node(scene_path=res://scenes/part2/checker_room.tscn, node_name=PromptLabel, node_type=Label)",
+  "files": [
+    {
+      "backup": "res://addons/godot_mcp/cache/undo/entry_000032/files/scenes/part2/checker_room.tscn",
+      "kind": "snapshot",
+      "path": "res://scenes/part2/checker_room.tscn"
+    }
+  ],
+  "id": "000032",
+  "timestamp": 1794571870.0,
+  "tool": "add_node"
+}

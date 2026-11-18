@@ -1,0 +1,13 @@
+{
+  "args_summary": "write_file(path=res://scripts/dialogue_box.gd)",
+  "files": [
+    {
+      "backup": "res://addons/godot_mcp/cache/undo/entry_000034/files/scripts/dialogue_box.gd",
+      "kind": "snapshot",
+      "path": "res://scripts/dialogue_box.gd"
+    }
+  ],
+  "id": "000034",
+  "timestamp": 1794647226.0,
+  "tool": "write_file"
+}

@@ -1,0 +1,12 @@
+{
+  "args_summary": "write_file(path=res://data/dialogues.json)",
+  "files": [
+    {
+      "kind": "created",
+      "path": "res://data/dialogues.json"
+    }
+  ],
+  "id": "000022",
+  "timestamp": 1794568701.0,
+  "tool": "write_file"
+}

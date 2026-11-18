@@ -1,0 +1,13 @@
+{
+  "args_summary": "write_file(path=res://data/dialogues.json)",
+  "files": [
+    {
+      "backup": "res://addons/godot_mcp/cache/undo/entry_000040/files/data/dialogues.json",
+      "kind": "snapshot",
+      "path": "res://data/dialogues.json"
+    }
+  ],
+  "id": "000040",
+  "timestamp": 1794647264.0,
+  "tool": "write_file"
+}

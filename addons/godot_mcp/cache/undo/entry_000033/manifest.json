@@ -1,0 +1,13 @@
+{
+  "args_summary": "write_file(path=res://scenes/ui/dialogue_box.tscn)",
+  "files": [
+    {
+      "backup": "res://addons/godot_mcp/cache/undo/entry_000033/files/scenes/ui/dialogue_box.tscn",
+      "kind": "snapshot",
+      "path": "res://scenes/ui/dialogue_box.tscn"
+    }
+  ],
+  "id": "000033",
+  "timestamp": 1794647215.0,
+  "tool": "write_file"
+}
